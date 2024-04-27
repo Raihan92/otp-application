@@ -15,9 +15,9 @@ import java.io.IOException;
 public class SmsServiceImpl implements SmsService {
 
     private static final Logger log = LogManager.getLogger(SmsServiceImpl.class);
-    private final static String ACCOUNT_SID = "AC9a4b83633a991dcd60d3306fcbfa32bd";
-    private final static String AUTH_ID = "b4be8053d8dd6a5454256be7f6f2a707";
-    private final static String SENDER_NO = "+13238701569";
+    private final static String ACCOUNT_SID = "<sid>";
+    private final static String AUTH_ID = "<auth-id>";
+    private final static String SENDER_NO = "<contact>";
 
     @PostConstruct
     void init() {
